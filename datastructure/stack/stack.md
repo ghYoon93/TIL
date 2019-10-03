@@ -4,5 +4,10 @@
 3. push, pop, top, empty, size 연산이 있다.
 
 ~~~
-
+import java.util.Stack;
+public class Main{
+    public void main(String [] args){
+    
+    }
+}
 ~~~
