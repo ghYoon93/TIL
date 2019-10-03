@@ -7,6 +7,8 @@
 import java.util.Stack;
 public class Main{
     public void main(String [] args){
+        Stack<Integer> stack = new Stack<Integer>();
+        
     
     }
 }
