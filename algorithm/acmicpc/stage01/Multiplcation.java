@@ -13,6 +13,7 @@ public class Multiplcation {
 		int answer02 = a * b2 / 10;
 		int answer03 = a * b1 / 100;
 		int answer04 = a * b;
+		
 		System.out.println(answer01);
 		System.out.println(answer02);
 		System.out.println(answer03);
