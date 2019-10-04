@@ -17,7 +17,5 @@ public class Multiplcation {
 		System.out.println(answer02);
 		System.out.println(answer03);
 		System.out.println(answer04);
-		
-		
 	}
 }
