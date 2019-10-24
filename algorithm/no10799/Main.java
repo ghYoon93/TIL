@@ -1,4 +1,4 @@
-package no10799;
+package dynamicProgramming;
 
 import java.util.*;
 
@@ -18,14 +18,14 @@ import java.util.*;
  * 또한, 모든 ‘( ) ’는 반드시 레이저를 표현한다.
  * 쇠막대기의 왼쪽 끝은 여는 괄호 ‘ ( ’ 로, 오른쪽 끝은 닫힌 괄호 ‘) ’ 로 표현된다.
  * 쇠막대기와 레이저의 배치를 나타내는 괄호 표현이 주어졌을 때, 잘려진 쇠막대기 조각의 총 개수를 구하는 프로그램을 작성하시오.
- * 한 줄에 쇠막대기와 레이저의 배치를 나타내는 괄호 표현이 공백없이 주어진다. 
+ * 한 줄에 쇠막대기와 레이저의 배치를 나타내는 괄호 표현이 공백없이 주어진다. # 
  * 괄호 문자의 개수는 최대 100,000이다.  
  */
 
-public class Main {
+public class No10799 {
     public static void main(String[] args){
     	Scanner sc = new Scanner(System.in);
-        String input = sc.nextLine().trim();
+        String input = sc.nextLine().trim(); 
         Stack<Integer>st = new Stack<Integer>();
         int n = input.length();
         int ans = 0;
