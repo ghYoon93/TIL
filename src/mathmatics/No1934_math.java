@@ -28,7 +28,7 @@ public class No1934_math {
     		int a = sc.nextInt();
     		int b = sc.nextInt();
     		int gcd = gcd(a, b);
-    		System.out.println(a*b/gcd);
+    		System.out.println(a*b/gcd); 
     	}
     }
 }
