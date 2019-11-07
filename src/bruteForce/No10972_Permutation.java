@@ -39,12 +39,12 @@ public class No10972_Permutation {
     			a[i-1] = tmp;
     			
     			j = n-1;
-    			while(i != j) {
+    			while(i < j) {
     				tmp = a[j];
     				a[j] = a[i];
     				a[i] = tmp;
-    				i++;
-    				j--;
+    				i+=1;
+    				j-=1;
     			}
     			for(int k = 0; k <n; k++) {
     				System.out.print(a[k]+" ");
