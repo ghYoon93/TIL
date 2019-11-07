@@ -12,7 +12,7 @@ package bruteForce;
  * 각 테스트 케이스마다, n을 1, 2, 3의 합으로 나타내는 방법의 수를 출력한다.
  */
 import java.util.*;
-public class No9095_mutipleFor {
+public class No9095_MutipleFor {
     public static void main(String[] args) {
     	Scanner sc = new Scanner(System.in);
     	int t = sc.nextInt();
