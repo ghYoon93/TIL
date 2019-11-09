@@ -30,6 +30,8 @@ public class No10973_Permutation {
 			tmp = a[i];
 			a[i] = a[j];
 			a[j] = tmp;
+			i++;
+			j--;
 		}
 		return true;
 	}
