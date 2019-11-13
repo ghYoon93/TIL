@@ -1,6 +1,6 @@
 package bruteForce;
 import java.util.*;
-public class No6033_Permutation {
+public class No6603_Permutation {
 	static boolean next_permutgetion(int[] a) {
         int i = a.length-1;
         while (i > 0 && a[i-1] >= a[i]) {
