@@ -9,7 +9,7 @@ public class No6603_Permutation {
 
         if (i <= 0) {
             return false;
-        }
+        } 
 
         int j = a.length-1;
         while (a[j] <= a[i-1]) {
